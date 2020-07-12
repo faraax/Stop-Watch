@@ -1,0 +1,38 @@
+h1 {
+    font-size: 52px;
+    margin-top: 10%;
+}
+h2 {
+    display: inline-block;
+    font-size: 50px;
+    color: #02cdf1
+}
+.display {
+    text-align: center;
+}
+input {
+    border: none;
+}
+.screen {
+    width: 20%;
+    display: inline-block;
+}
+.btn {
+    background-color: #83dbeb; /* Green */
+    border: none;
+    border-radius: 25px  ;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #02cdf1;
+    color: white;
+    transition: all 0.5s;
+}
